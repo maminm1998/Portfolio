@@ -4,7 +4,13 @@ import homeLogo from "../../Assets/home-main.svg";
 import Particle from "../Particle";
 import Home2 from "./Home2";
 import Type from "./Type";
+import Techstack from "../About/Techstack";
+import {
+  AiFillGithub,
 
+} from "react-icons/ai";
+import Familiar from '../About/familiar'
+import Toolstack from "../About/Toolstack";
 function Home() {
   return (
     <section>
@@ -40,8 +46,46 @@ function Home() {
             </Col>
           </Row>
         </Container>
+        <Container fluid className="about-section">
+        <Home2 />
+
+        <h1 className="project-heading">
+          Professional <strong className="purple">Skillset </strong>
+        </h1>
+
+        <Techstack />
+        <h1 className="project-heading">
+        Familiar with <strong className="purple"></strong>
+        </h1>
+
+        <Familiar />
+
+        <h1 className="project-heading">
+          <strong className="purple">Tools</strong> I use
+        </h1>
+        <Toolstack />
+        </Container>
       </Container>
-      <Home2 />
+      <Container className="home-about-social">
+        
+      <h1>FIND ME ON</h1>
+            <p>
+              Feel free to <span className="purple">connect </span>with me
+            </p>
+            <ul className="home-about-social-links">
+              <li className="social-icons">
+                <a
+                  href="https://github.com/soumyajit4419"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillGithub />
+                </a>
+              </li>
+              
+            </ul>
+      </Container>
     </section>
   );
 }

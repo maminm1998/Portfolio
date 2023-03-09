@@ -4,6 +4,8 @@ import Nav from "react-bootstrap/Nav";
 import Container from "react-bootstrap/Container";
 import logo from "../Assets/logo.png";
 import { Link } from "react-router-dom";
+import Techstack from "./About/Techstack";
+import Familiar from './About/familiar';
 
 import {
   AiOutlineHome,
@@ -12,6 +14,7 @@ import {
 } from "react-icons/ai";
 
 import { CgFileDocument } from "react-icons/cg";
+import Toolstack from "./About/Toolstack";
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -56,15 +59,7 @@ function NavBar() {
               </Nav.Link>
             </Nav.Item>
 
-            <Nav.Item>
-              <Nav.Link
-                as={Link}
-                to="/about"
-                onClick={() => updateExpanded(false)}
-              >
-                <AiOutlineUser style={{ marginBottom: "2px" }} /> About
-              </Nav.Link>
-            </Nav.Item>
+            
 
             <Nav.Item>
               <Nav.Link
@@ -90,6 +85,7 @@ function NavBar() {
             </Nav.Item>
           </Nav>
         </Navbar.Collapse>
+        
       </Container>
     </Navbar>
   );
