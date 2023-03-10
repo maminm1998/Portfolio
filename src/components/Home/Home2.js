@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
-
+import myImage from '../../Assets/tempFileForShare_20230310-173425.png'
 
 function Home2() {
   return (
@@ -32,7 +32,7 @@ function Home2() {
           </Col>
           <Col md={4} className="myAvtar">
             <Tilt>
-              <img src={myImg} className="img-fluid" alt="avatar" />
+              <img src={myImage} className="img-fluid" alt="avatar" />
             </Tilt>
           </Col>
         </Row>
