@@ -3,7 +3,6 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.svg";
 import Tilt from "react-parallax-tilt";
 
-import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -17,9 +16,9 @@ function Home2() {
             </h1>
             <p className="home-about-body" style={{fontSize:'45px'}}>
              
-              <br /> <h1>Hard working and dedicated MS</h1> 
+              <br /> <h1>I have one year of experience in  </h1> 
               <i>
-                <b className="purple"> <h3>nutrition science and diet therapy (Top Student).</h3> </b>
+                <b className="purple"> <h3>software engineering and am looking for an internship opportunity.</h3> </b>
               </i>
               <br />
               
@@ -28,11 +27,7 @@ function Home2() {
                 <b className="purple"> <h4>nutrition science and diet therapy (Top Student).</h4> </b>
               </i>
               <br />
-              <br /> <h3>Hard working and dedicated MS</h3> 
-              <i>
-                <b className="purple"> <h5>nutrition science and diet therapy (Top Student).</h5> </b>
-              </i>
-              <br />
+              
             </p>
           </Col>
           <Col md={4} className="myAvtar">

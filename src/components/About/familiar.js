@@ -1,6 +1,6 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
-import { CgCPlusPlus } from "react-icons/cg";
+import { CgFigma } from "react-icons/cg";
 import {
   
   DiNodejs,
@@ -9,9 +9,9 @@ import {
   DiGit,DiDart
 } from "react-icons/di";
 import {
-  SiPytorch,
+  
   SiFirebase,
-  SiNextdotjs,
+  SiAdobexd
 } from "react-icons/si";
 
 function Techstack() {
@@ -34,6 +34,12 @@ function Techstack() {
       </Col>
       <Col xs={4} md={2} className="tech-icons">
         <DiDart />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <SiAdobexd />
+      </Col>
+      <Col xs={4} md={2} className="tech-icons">
+        <CgFigma />
       </Col>
     </Row>
     
