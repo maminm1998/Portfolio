@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/Portfolio/static/css/main.4cd1e74e.css",
-    "main.js": "/Portfolio/static/js/main.9d3ff3bd.js",
+    "main.js": "/Portfolio/static/js/main.6d207897.js",
     "static/js/787.2eed9bf9.chunk.js": "/Portfolio/static/js/787.2eed9bf9.chunk.js",
+    "static/media/tempFileForShare_20230310-173425.png": "/Portfolio/static/media/tempFileForShare_20230310-173425.d37f41f2f09348aadbf4.png",
+    "static/media/Mohammad Amin Mohammadi CV.pdf": "/Portfolio/static/media/Mohammad Amin Mohammadi CV.6a29abc00d2167d153fa.pdf",
     "static/media/home-main.svg": "/Portfolio/static/media/home-main.359935c39288e92d4dba5c9f2445b91d.svg",
     "static/media/CMS.png": "/Portfolio/static/media/CMS.46559ac7d4a24fe552eb.png",
-    "static/media/Soumyajit_Behera-BIT_MESRA.pdf": "/Portfolio/static/media/Soumyajit_Behera-BIT_MESRA.bbcb2cb6b9e727b164f6.pdf",
     "static/media/home-bg.jpg": "/Portfolio/static/media/home-bg.dc52d5d40a40b13154b0.jpg",
     "static/media/avatar.svg": "/Portfolio/static/media/avatar.7f806e40d46fc76fbc3c4a3d71349951.svg",
     "static/media/pre.svg": "/Portfolio/static/media/pre.4410c5baaa673cc131da.svg",
     "index.html": "/Portfolio/index.html",
     "main.4cd1e74e.css.map": "/Portfolio/static/css/main.4cd1e74e.css.map",
-    "main.9d3ff3bd.js.map": "/Portfolio/static/js/main.9d3ff3bd.js.map",
+    "main.6d207897.js.map": "/Portfolio/static/js/main.6d207897.js.map",
     "787.2eed9bf9.chunk.js.map": "/Portfolio/static/js/787.2eed9bf9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4cd1e74e.css",
-    "static/js/main.9d3ff3bd.js"
+    "static/js/main.6d207897.js"
   ]
 }
