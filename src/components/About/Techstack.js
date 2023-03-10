@@ -36,9 +36,7 @@ function Techstack() {
       <Col xs={4} md={2} className="tech-icons">
         <SiAdobepremierepro />
       </Col>
-      <Col xs={4} md={2} className="tech-icons">
-        <DiHtml5 />
-      </Col>
+      
     </Row>
     
   );
